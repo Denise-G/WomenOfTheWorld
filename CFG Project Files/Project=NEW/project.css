@@ -1,0 +1,140 @@
+/* PHONE VERSION */
+@media only screen and (min-width: 320px) {
+    h1 {color:purple;}
+}
+/* TABLET VERSION */
+@media only screen and (min-width: 768px) {
+    h1 {color: rgb(244, 209, 96);}
+}
+/* DESKTOP VERSION */
+
+@media only screen and (min-width: 980px) {
+    h1 {color: rgb(0, 153, 255);}
+}
+
+
+
+
+/*Index Page*/
+
+html {
+    background: rgb(123, 81, 207);
+}
+
+html {
+    background-image: url(shea.jpg);
+}
+
+
+
+
+
+
+/*Gitmoji Page*/
+.gitmoji {
+    background-color: rgb(197, 207, 55);
+}
+
+.container {
+    width: 600px;
+    max-width: 80%;
+    background-color: rgb(123, 81, 207);
+    padding: 50px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px 2px;
+    margin: auto;
+    width: 50%;
+
+
+}
+
+h1 {
+    color: rgb(255, 253, 208);
+    font-size: 50px;
+    font-style: oblique;
+    font-weight: bold;
+    border: 1px; 
+    padding: 30px;
+    margin: 30px;
+    display: flex;
+    justify-content: left;
+}
+
+h3 {
+    color: rgb(205, 218, 31);
+    font-size: 30px;
+    font-style: oblique;
+    font-weight: lighter; 
+   
+}
+
+h5 {
+    color: rgb(255, 251, 0);
+    font-size: 20px;
+    font-style: helvetica;
+    font-weight: lighter; 
+   
+}
+
+Text {
+    color: rgb(247, 0, 255);
+    font-size: 20px;
+    font-style: helvetica;
+    font-weight: lighter; 
+   
+}
+
+
+.buttons {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: row;
+    color: whitesmoke;
+    font-size: 15px;
+    background: black;
+    font-style: oblique;
+    font-weight: bold;
+    padding: 10px;
+    box-shadow: 0 0 10px 2px;
+    border-radius: 5px; 
+    transition-duration: 0.4s;  
+}
+ 
+.buttons a {
+    color: rgb(240, 238, 196);
+    text-decoration: none;
+
+}
+
+.buttons:hover {
+    color: red;
+  }
+
+.About-us:hover {
+    transform: scale(1.1);
+}
+
+.Gitmoji-Game:hover {
+    transform: scale(1.1);
+}
+
+.Inspiring-Women:hover {
+    transform: scale(1.1);
+}
+
+.Recommendations:hover{
+    transform: scale(1.1);
+}
+
+.images{
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.images:hover {
+    transform: scale(1.1);
+}
